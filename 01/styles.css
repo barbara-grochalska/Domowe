@@ -1,0 +1,95 @@
+.error {
+  background: red;
+  color: white;
+}
+
+.paragraph-12 {
+  font-size: 12px;
+}
+
+.paragraph-12--error {
+  font-size: 12px;
+  color: red;
+}
+
+.paragraph-13 {
+  font-size: 13px;
+}
+
+.paragraph-13--error {
+  font-size: 13px;
+  color: red;
+}
+
+.paragraph-14 {
+  font-size: 14px;
+}
+
+.paragraph-14--error {
+  font-size: 14px;
+  color: red;
+}
+
+.paragraph-15 {
+  font-size: 15px;
+}
+
+.paragraph-15--error {
+  font-size: 15px;
+  color: red;
+}
+
+.paragraph-16 {
+  font-size: 16px;
+}
+
+.paragraph-16--error {
+  font-size: 16px;
+  color: red;
+}
+
+.paragraph-17 {
+  font-size: 17px;
+}
+
+.paragraph-17--error {
+  font-size: 17px;
+  color: red;
+}
+
+.paragraph-18 {
+  font-size: 18px;
+}
+
+.paragraph-18--error {
+  font-size: 18px;
+  color: red;
+}
+
+.paragraph-19 {
+  font-size: 19px;
+}
+
+.paragraph-19--error {
+  font-size: 19px;
+  color: red;
+}
+
+.paragraph-20 {
+  font-size: 20px;
+}
+
+.paragraph-20--error {
+  font-size: 20px;
+  color: red;
+}
+
+.paragraph-21 {
+  font-size: 21px;
+}
+
+.paragraph-21--error {
+  font-size: 21px;
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */
