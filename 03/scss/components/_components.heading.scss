@@ -1,0 +1,9 @@
+.c-heading {
+    &--primary {
+        @include primaryHeading;
+          }
+
+    &--secondary {
+        @include secondaryHeading;
+    }
+}

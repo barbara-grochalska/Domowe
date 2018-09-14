@@ -1,0 +1,11 @@
+.content{}
+
+.c-middle-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "main aside";
+    grid-gap: 5px;
+    margin: 1em 5%;
+    padding: 0 5px;
+    
+}

@@ -1,0 +1,8 @@
+.o-link {
+    text-decoration: none;
+    color:$primaryColor;
+        &:hover {
+            color:$secondaryColor;
+        }
+    
+}

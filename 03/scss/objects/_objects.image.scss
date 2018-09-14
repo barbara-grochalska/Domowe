@@ -1,0 +1,16 @@
+.o-image {
+    &__pic {
+        height: 8em;
+        padding: 1px;
+         
+        }
+
+    &__desc {
+        @include imageDescription;
+        
+    }
+
+    &--rounded {}    
+    &--centered {}
+        
+      }

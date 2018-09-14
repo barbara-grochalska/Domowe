@@ -1,0 +1,17 @@
+.c-testimonial {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-right: 15%;
+    
+    &__image {
+        padding: 1em;
+       
+    }
+
+    &__desc {
+        padding: 5px;
+        
+        }
+}
