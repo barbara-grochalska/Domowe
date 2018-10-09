@@ -125,15 +125,14 @@ const users = [
   function sendMessage() {
       let message = this.messages;
       let ageCondition = this.age < 30 ? "" : this.gender ==="female" ? "Mrs." : "Mr.";
-      let name = this.age < 30 ? this.firstName : this.firstName + this.lastName;
+      let name = this.age < 30 ? this.firstName : this.firstName + " " + this.lastName;
       
 
-      console.log("Hello, " + ageCondition + " " + name + " !"+ " You have " + message + " unread messages.");
+      console.log("Hello, " + ageCondition + " " + name + "!"+ " You have " + message + " unread messages.");
    
   }
 
- 
-    
+      
    
       
   
