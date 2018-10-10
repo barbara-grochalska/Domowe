@@ -123,14 +123,31 @@ const users = [
   ];
 
   function sendMessage() {
-      let message = this.messages;
-      let ageCondition = this.age < 30 ? "" : this.gender ==="female" ? "Mrs." : "Mr.";
-      let name = this.age < 30 ? this.firstName : this.firstName + " " + this.lastName;
+        let message = this.messages;
+        let ageCondition = this.age < 30 ? "" : this.gender ==="female" ? "Mrs." : "Mr.";
+        let name = this.age < 30 ? this.firstName : this.firstName + " " + this.lastName;
       
 
-      console.log("Hello, " + ageCondition + " " + name + "!"+ " You have " + message + " unread messages.");
+    console.log("Hello, " + ageCondition + " " + name + "!"+ " You have " + message + " unread messages.");
    
   }
+
+  users.forEach (function(element){
+        element.sendMessage = sendMessage;
+        element.sendMessage();
+});
+
+  let femalesUnderThirty = users.find(element => element.age < 30 && element.gender === "female");
+  let maleOverThirty = users.find(element =>element.age > 30 && element.gender === "male");
+  const chosenFemaleMale = [femalesUnderThirty].concat([maleOverThirty]);
+
+
+
+  chosenFemaleMale.forEach(function(element){
+        element.sendMessage = sendMessage;
+        element.sendMessage();
+});
+
 
       
    
